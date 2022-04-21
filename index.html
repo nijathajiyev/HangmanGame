@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title> Game</title>
+
+    <style>
+        .jumbotron h1{
+            font-size: 60px;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron ">
+            <div class="container">
+                <h1>Coding Bootcamp - Hangman</h1>
+                <h2>Guess the name of animals</h2>
+                <p class="lead">Click any letter to begin... </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header display-5 h4">
+                Word to Guess
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item pt-3 pb-4 h3" id="guessWord"></li>
+            </ul>
+          </div>
+
+          <div class="card mt-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item font-weight-bold p-3" id="guessWrong">Wrong Guesses: </li>
+            </ul>
+          </div>
+
+          <div class="card mt-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item font-weight-bold p-3" id="guessChance">Chance of Guesses: </li>
+            </ul>
+          </div>
+
+          <div class="card mt-4">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item font-weight-bold p-3" id="wins">Wins: 0</li>
+            </ul>
+          </div>
+
+          <div class="card mt-4 mb-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item font-weight-bold p-3" id="losses">Losses: 0</li>
+            </ul>
+          </div>
+    </div>
+    
+       
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
